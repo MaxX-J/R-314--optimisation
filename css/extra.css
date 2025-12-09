@@ -1,0 +1,13 @@
+.hero, .card, .feature, .cta {
+	/* Consolidated brightness filter classes */
+	.filter-brightness {
+		filter: brightness(var(--brightness));
+	}
+	/* ...existing code... */
+}
+
+/* Define brightness levels */
+:root {
+	--brightness: 1.0; /* Default brightness */
+}
+
